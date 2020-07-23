@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MINDSPARK-2020</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body bgcolor='#000000'>
+<table width='100%' align='center' >
+<tr>
+<td><img src="mindspark.jpg" width="270" height="203" border="0" alt=""></td>
+<td><font size="20" color='gray' style="font-family:Monotype Corsiva;">College of Engineering ,Pune</font></td>
+<td><img src="coep_logo1.jpg" width="175" height="203" border="0" alt=""></td>
+</tr>
+</table>
+<div >
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Register">Register</a></li>
+  <li><a href="#Incentives">Incentives</a></li>
+  <li><a href="#Responsibilities">Responsibilities</a></li>
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+</div>
+<div align='right'>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+</div>
+<BR><BR>
+<div class="slideshow-container"  align='center'>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="campus_ambassador.jpg"  align='center' style="width=750px,height=350px">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="campus_ambassador1.jpg"  align='center' style="width=750px,height=350px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="campus_ambassador2.jpg"  align='center' style="width=750px,height=350px">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="campus_ambassador3.jpg"  align='center' style="width=750px,height=350px">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+
+</div>
+				<table width='100%' align='center' bgcolor='#333'>
+				<tr>
+					<td align='center' ><font size="3" color="white">Copyright &copy; mind-spark.org</font></td>
+				</tr>
+				</table>
+			
+			
+</body>
+</html>
